@@ -1,5 +1,5 @@
 # paddlehub_ernie_emotion_analysis
-百度PaddleHub-ERNIE微调中文情感分析(文本分类)
+百度PaddleHub-ERNIE微调**中文情感分析**(文本二分类)。详细流程参考[**博文**](https://blog.csdn.net/weixin_41611054/article/details/118487666)。
 ## PaddlePaddle-PaddleHub
 [**飞桨(PaddlePaddle)**](https://github.com/PaddlePaddle/Paddle)以百度多年的深度学习技术研究和业务应用为基础，是中国首个自主研发、功能完备、 开源开放的产业级深度学习平台，集深度学习核心训练和推理框架、基础模型库、端到端开发套件和丰富的工具组件于一体。[**PaddleHub**](https://github.com/PaddlePaddle/PaddleHub)旨在为开发者提供丰富的、高质量的、直接可用的预训练模型。
 ## ERNIE
