@@ -4,6 +4,8 @@
 [**飞桨(PaddlePaddle)**](https://github.com/PaddlePaddle/Paddle)以百度多年的深度学习技术研究和业务应用为基础，是中国首个自主研发、功能完备、 开源开放的产业级深度学习平台，集深度学习核心训练和推理框架、基础模型库、端到端开发套件和丰富的工具组件于一体。[**PaddleHub**](https://github.com/PaddlePaddle/PaddleHub)旨在为开发者提供丰富的、高质量的、直接可用的预训练模型。
 ## ERNIE
 [**ERNIE**](https://github.com/PaddlePaddle/ERNIE)(**Enhanced** **Representation** **through** **kNowledge** **IntEgration**)是百度提出的**知识增强的语义表示模型**，通过对词、实体等语义单元的掩码，使得模型学习完整概念的语义表示。在**语言推断**、**语义相似度**、**命名实体识别**、**情感分析**、**问答匹配**等自然语言处理(NLP)各类**中文**任务上的验证显示，模型效果全面**超越BERT**。
+![ERNIE](https://github.com/zhenhao-huang/paddlehub_ernie_emotion_analysis/blob/main/pictures/ernie1.png)
+![ERNIE](https://github.com/zhenhao-huang/paddlehub_ernie_emotion_analysis/blob/main/pictures/ernie2.png)
 更多详情请参考[**ERNIE论文**](https://arxiv.org/pdf/1904.09223.pdf)。
 ## 一、环境安装
     # CPU
@@ -78,7 +80,7 @@ PaddleHub还提供BERT等模型可供选择, 当前支持文本分类任务的�
 完成**Fine-tune**后，**Fine-tune**过程在验证集上表现最优的模型会被保存在`${CHECKPOINT_DIR}/best_model`目录下，其中`${CHECKPOINT_DIR}`目录为**Fine-tune**时所选择的保存**checkpoint**的目录。运行脚本`predict.py`。
 ## 五、结果
 训练集：
-
+![](https://github.com/zhenhao-huang/paddlehub_ernie_emotion_analysis/blob/main/pictures/result1.png)
 测试集：
-
+![](https://github.com/zhenhao-huang/paddlehub_ernie_emotion_analysis/blob/main/pictures/result2.png)
 在**二分类数据集weibo_senti_100k.csv**上，**训练集准确率**可以达到**98%**，**测试集准确率**同样可以达到**98%**。
